@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231</title>
-</head>
-<body>
-    <h1>Welcome to WDD231</h1>
-    <h5>Testing</h5>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doris Chamber of Commerce</title>
+    <meta name="author" content="Doris Uchechukwu Anakwuba" />
+    <meta
+      name="description"
+      content="WDD 231 - Course Home Page for Doris Uchechukwu Anakwuba Week01 Assignment"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/large-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="scripts/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="images/logo.png"
+          alt="Site Logo"
+          id="logo"
+          width="50"
+          height="50"
+        />
+        <span>Doris Uchechukwu Anakwuba</span>
+      </div>
+      <button id="menu" title="Open Menu">&#9776;</button>
+    </header>
+
+    <nav>
+      <ul id="animate-me">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="index.html">Chamber Project</a></li>
+        <li><a href="index.html">Final Project</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="page-title">Home</h1>
+
+      <section class="card info-card">
+        <h2 class="card-header">About Me</h2>
+        <div class="card-content">
+          <p>
+            Information about your location or background goes here. Your
+            wireframe shows a placeholder for a paragraph of text here. Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Rerum cum
+            voluptatum, ipsum a, magnam assumenda consectetur ab debitis
+            laboriosam beatae magni labore. Dolorum voluptatum natus
+            necessitatibus modi, illo praesentium ad voluptatem saepe possimus
+            voluptates vero? Harum nesciunt hic, voluptate velit quisquam
+            eligendi expedita maxime illo explicabo sed suscipit accusantium,
+            ducimus repellat? Delectus ex fugiat dolorem nobis animi
+            perspiciatis optio est autem necessitatibus tempore error deserunt
+            alias vero, corporis laudantium earum doloribus dicta at voluptas?
+            Vitae nam sapiente magni repellat! Voluptate tempora cumque
+            distinctio quod a incidunt minima ad. Ducimus perferendis mollitia
+            et, iusto modi suscipit veritatis sapiente sint officiis temporibus.
+          </p>
+        </div>
+      </section>
+
+      <section class="card photo-card">
+        <h2 class="card-header">Student Photo</h2>
+        <div class="card-content photo-placeholder">
+          <img
+            src="images/doris.jpg"
+            alt="Student Photo"
+            loading="lazy"
+            width="400"
+            height="300"
+          />
+        </div>
+      </section>
+
+      <section class="card courses-card">
+        <h2 class="card-header">Web Certificate Courses</h2>
+        <div class="filter-buttons">
+          <button id="all">All</button>
+          <button id="cse">CSE</button>
+          <button id="wdd">WDD</button>
+        </div>
+        <div id="course-list"></div>
+        <p class="credit-total">
+          The total credits for courses listed above is
+          <span id="total-credits">0</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/devdoris/" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="http://github.com/devdoris/wdd231" target="_blank">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+            <a href="https://x.com/DevDoris1" target="_blank">
+                <img src="images/twitter.png" alt="X">
+            </a>
+            <a href="https://web.facebook.com/devdoris" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+        <p>
+          &copy; <span id="currentyear"></span> ✺ Doris Uchechukwu Anakwuba ✺
+          Paris, France.
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <dialog id="course-details"></dialog>
+  </body>
 </html>
