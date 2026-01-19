@@ -1,0 +1,84 @@
+{
+  "companies": [
+    {
+      "name": "Dangote Group",
+      "address": "Victoria Island, Lagos",
+      "phone": "+234 1 448 0815",
+      "website": "https://dangote.com",
+      "image": "logo.png",
+      "membership": 3
+    },
+    {
+      "name": "GTBank",
+      "address": "Adeola Odeku, Lagos",
+      "phone": "+234 700 482 663",
+      "website": "https://www.gtbank.com",
+      "image": "logo.png",
+      "membership": 3
+    },
+    {
+      "name": "Flutterwave",
+      "address": "Yaba, Lagos",
+      "phone": "+234 1 888 8888",
+      "website": "https://flutterwave.com",
+      "image": "logo.png",
+      "membership": 2
+    },
+    {
+      "name": "Interswitch",
+      "address": "Maryland, Lagos",
+      "phone": "+234 1 628 3888",
+      "website": "https://interswitchgroup.com",
+      "image": "logo.png",
+      "membership": 2
+    },
+    {
+      "name": "Jumia Nigeria",
+      "address": "Ikeja, Lagos",
+      "phone": "+234 1 700 0000",
+      "website": "https://www.jumia.com.ng",
+      "image": "logo.png",
+      "membership": 1
+    },
+        {
+      "name": "Dangote Group",
+      "address": "Victoria Island, Lagos",
+      "phone": "+234 1 448 0815",
+      "website": "https://dangote.com",
+      "image": "logo.png",
+      "membership": 3
+    },
+    {
+      "name": "GTBank",
+      "address": "Adeola Odeku, Lagos",
+      "phone": "+234 700 482 663",
+      "website": "https://www.gtbank.com",
+      "image": "logo.png",
+      "membership": 3
+    },
+    {
+      "name": "Flutterwave",
+      "address": "Yaba, Lagos",
+      "phone": "+234 1 888 8888",
+      "website": "https://flutterwave.com",
+      "image": "logo.png",
+      "membership": 2
+    },
+    {
+      "name": "Interswitch",
+      "address": "Maryland, Lagos",
+      "phone": "+234 1 628 3888",
+      "website": "https://interswitchgroup.com",
+      "image": "logo.png",
+      "membership": 2
+    },
+    {
+      "name": "Jumia Nigeria",
+      "address": "Ikeja, Lagos",
+      "phone": "+234 1 700 0000",
+      "website": "https://www.jumia.com.ng",
+      "image": "logo.png",
+      "membership": 1
+    }
+  ]
+}

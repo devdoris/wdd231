@@ -1,0 +1,35 @@
+@media (min-width: 32rem) {
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #members.grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    align-items: center;
+  }
+
+  .footer-center {
+    text-align: center;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+}

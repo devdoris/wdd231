@@ -1,0 +1,157 @@
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+.site-header {
+  background-color: #6fa8e0;
+  color: black;
+  padding: 1rem;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+#menu {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation li {
+  margin: 0.5rem 0;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navigation a.active {
+  text-decoration: underline;
+}
+
+main {
+  text-align: center;
+  padding: 1rem;
+}
+
+.view-controls {
+  display: inline-flex;
+  background-color: #e1e5ea;
+  border-radius: 1.5rem;
+  padding: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.view-controls button {
+  border: none;
+  background: transparent;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.view-controls button.active {
+  background-color: #ffffff;
+}
+
+#members.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#members section {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+#members img {
+  max-width: 100%;
+}
+
+#members.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#members.list section {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1.5fr 2fr;
+  align-items: center;
+  background-color: #eef1f4;
+}
+
+#members.list img {
+  display: none;
+}
+
+#members.list .visit-btn {
+    background-color: #eef1f4;
+}
+
+.visit-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  background-color: #6fa8e0;
+  color: black;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.visit-btn:hover {
+  background-color: #518cca;
+  transform: translateY(-1px);
+}
+
+.visit-btn:active {
+  transform: translateY(0);
+}
+
+.site-footer {
+  background-color: #6fa8e0;
+  color: black;
+  font-weight: bold;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-center img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer-center a {
+    text-decoration: none;
+}
