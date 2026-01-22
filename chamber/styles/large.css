@@ -33,3 +33,71 @@
     text-align: right;
   }
 }
+
+@media (min-width: 64rem) {
+
+  main {
+    display: block;
+  }
+
+  .home-sections {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .events {
+    grid-column: 1 / 2;
+  }
+
+  .weather {
+    grid-column: 2 / 3;
+  }
+
+  .forecast {
+    grid-column: 3 / 4;
+  }
+
+  .spotlights {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  #spotlight-cards {
+    display: contents;
+  }
+
+  .spotlight-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: rgba(255, 255, 255, 0.85);
+  }
+
+  .cta-button {
+    width: auto;
+  }
+  
+  .hero-text {
+    bottom: 2rem;
+    right: 2rem;
+    left: auto;
+    transform: none;
+    text-align: left;
+    max-width: 420px;
+  }
+  
+  .hero-text .cta-button {
+    width: auto;
+  }
+}
+
