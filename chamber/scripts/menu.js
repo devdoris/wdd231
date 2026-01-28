@@ -6,3 +6,6 @@ menuButton.addEventListener("click", () => {
   menuButton.textContent =
     navigation.classList.contains("show") ? "✖" : "☰";
 });
+
+document.querySelector("#year").textContent = new Date().getFullYear();
+document.querySelector("#lastModified").textContent = document.lastModified;

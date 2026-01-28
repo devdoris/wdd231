@@ -212,3 +212,11 @@ dialog {
 dialog::backdrop {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+}

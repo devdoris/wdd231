@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         card.innerHTML = `
           <h3>${company.name}</h3>
-          <img src="${company.image}" alt="${company.name} logo" width="200" height="100" loading="lazy" class="newimage">
+          <img src="images/ginoo.png" alt="${company.name} logo" width="200" height="100" loading="lazy" class="newimage">
           <p>${company.address}</p>
           <p>${company.phone}</p>
           <p>

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Doris Chamber Of Commerce | Join</title>
+    <title>Doris Thank You Page</title>
     <meta name="author" content="Doris Uchechukwu Anakwuba" />
     <meta name="description" content="WDD 231 - Chamber Of Commerce for Doris Uchechukwu Anakwuba Week04 Assignment" />
     <meta property="og:title" content="WDD 231 - Chamber Of Commerce for Doris Uchechukwu Anakwuba" />
     <meta property="og:description" content="WDD 231 - Chamber Of Commerce for Doris Uchechukwu Anakwuba" />
     <meta property="og:image" content="https://devdoris.github.io/wdd231/chamber/images/logo.png" />
-    <meta property="og:url" content="https://devdoris.github.io/wdd231/chamber/join.html" />
+    <meta property="og:url" content="https://devdoris.github.io/wdd231/chamber/thankyou.html" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/large.css" />
@@ -18,13 +18,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
-    <script defer src="scripts/join.js"></script>
+    <script defer src="scripts/thankyou.js"></script>
 </head>
 
 <body>
+
     <header class="site-header">
         <h1>Doris Chamber Of Commerce</h1>
-
+    
         <nav>
             <button id="menu" aria-label="Toggle Navigation">☰</button>
             <ul class="navigation">
@@ -36,77 +37,26 @@
         </nav>
     </header>
 
-<main class="join-page">
-    <h1>Membership Application</h1>
+    <main class="thankyou">
+        <h1>Thank You for Applying!</h1>
+        <p>Here's the information we received:</p>
 
-    <div class="join-layout">
-        <form method="get" action="thankyou.html" class="join-form">
-
-            <label>
-                First Name
-                <input type="text" name="fname" required title="First Name" autocomplete="given-name">
-            </label>
-
-            <label>
-                Last Name
-                <input type="text" name="lname" required title="Last Name" autocomplete="family-name">
-            </label>
-
-            <label>
-                Organizational Title
-                <input type="text" name="orgtitle" title="Your role in the organization"
-                    autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
-            </label>
-
-            <label>
-                Email Address
-                <input type="email" name="email" required title="Email Address" autocomplete="email"
-                    placeholder="example@email.com">
-            </label>
-
-            <label>
-                Mobile Phone
-                <input type="tel" name="phone" required title="Mobile Phone Number" autocomplete="tel">
-            </label>
-
-            <label>
-                Business / Organization Name
-                <input type="text" name="business" required title="Business Name" autocomplete="organization">
-            </label>
-
-            <label>
-                Membership Level
-                <select name="membership" required title="Select a membership level">
-                    <option value="">Select a level</option>
-                    <option value="1">NP Membership (Free)</option>
-                    <option value="2">Bronze Membership</option>
-                    <option value="3">Silver Membership</option>
-                    <option value="4">Gold Membership</option>
-                </select>
-            </label>
-
-            <label>
-                Business Description
-                <textarea name="description" title="Business Description"></textarea>
-            </label>
-
-            <input type="hidden" name="timestamp" id="timestamp">
-
-            <input type="submit" value="Apply for Membership">
-        </form>
-
-        <section class="membership-cards" id="membershipCards">
+        <section class="summary">
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Business:</strong> <span id="business"></span></p>
+            <p><strong>Membership Level:</strong> <span id="membership"></span></p>
+            <p><strong>Submitted:</strong> <span id="timestamp"></span></p>
         </section>
-    </div>
-</main>
-
+    </main>
 
     <footer class="site-footer">
         <div class="footer-left">
             <p>Along Orchid Rd<br>Lekki, Lagos</p>
             <p>devdoris1@gmail.com<br>(234) 702-581-3622</p>
         </div>
-
+    
         <div class="footer-center">
             <a href="https://www.linkedin.com/in/devdoris/" target="_blank">
                 <img src="images/linkedin.png" alt="LinkedIn">
@@ -118,12 +68,14 @@
                 <img src="images/facebook.png" alt="Facebook">
             </a>
         </div>
-
+    
         <div class="footer-right">
             <p>WDD231 Class Project<br>Doris Uchechukwu Anakwuba</p>
             <p>© <span id="year"></span> Doris Chamber of Commerce</p>
             <p>Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
+
 </body>
+
 </html>

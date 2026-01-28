@@ -294,3 +294,144 @@ picture > img {
 .list {
   list-style: none;
 }
+
+.join-layout {
+  display: grid;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  .join-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .join-layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}
+
+.join-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.join-form input[type="submit"] {
+  background-color: #6fa8e0;
+  color: black;
+  font-weight: bold;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-form input[type="submit"]:hover {
+  background-color: #5583c5;
+}
+
+.membership-cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.membership-cards .card {
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.membership-cards ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.membership-cards li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.membership-cards .card button {
+  margin-top: 0.5rem;
+  background-color: #6fa8e0;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership-cards .card button:hover {
+  background-color: #5583c5;
+}
+
+.fade-in {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.fade-in:nth-child(1) { animation-delay: 0s; }
+.fade-in:nth-child(2) { animation-delay: 0.2s; }
+.fade-in:nth-child(3) { animation-delay: 0.4s; }
+.fade-in:nth-child(4) { animation-delay: 0.6s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+dialog {
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+dialog h3 {
+  margin-top: 0;
+}
+
+dialog button {
+  margin-top: 1rem;
+  background-color: #6fa8e0;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 3px solid #6fa8e0;
+  outline-offset: 2px;
+}

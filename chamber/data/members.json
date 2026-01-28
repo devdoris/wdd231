@@ -5,15 +5,15 @@
       "address": "Victoria Island, Lagos",
       "phone": "+234 1 448 0815",
       "website": "https://dangote.com",
-      "image": "images/gino.png",
-      "membership": 3
+      "image": "../images/gino.png",
+      "membership": 4
     },
     {
       "name": "GTBank",
       "address": "Adeola Odeku, Lagos",
       "phone": "+234 700 482 663",
       "website": "https://www.gtbank.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 3
     },
     {
@@ -21,7 +21,7 @@
       "address": "Yaba, Lagos",
       "phone": "+234 1 888 8888",
       "website": "https://flutterwave.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 2
     },
     {
@@ -29,7 +29,7 @@
       "address": "Maryland, Lagos",
       "phone": "+234 1 628 3888",
       "website": "https://interswitchgroup.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 2
     },
     {
@@ -37,7 +37,7 @@
       "address": "Ikeja, Lagos",
       "phone": "+234 1 700 0000",
       "website": "https://www.jumia.com.ng",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 1
     },
         {
@@ -45,7 +45,7 @@
       "address": "Victoria Island, Lagos",
       "phone": "+234 1 448 0815",
       "website": "https://dangote.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 3
     },
     {
@@ -53,7 +53,7 @@
       "address": "Adeola Odeku, Lagos",
       "phone": "+234 700 482 663",
       "website": "https://www.gtbank.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 3
     },
     {
@@ -61,7 +61,7 @@
       "address": "Yaba, Lagos",
       "phone": "+234 1 888 8888",
       "website": "https://flutterwave.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 2
     },
     {
@@ -69,7 +69,7 @@
       "address": "Maryland, Lagos",
       "phone": "+234 1 628 3888",
       "website": "https://interswitchgroup.com",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 2
     },
     {
@@ -77,7 +77,7 @@
       "address": "Ikeja, Lagos",
       "phone": "+234 1 700 0000",
       "website": "https://www.jumia.com.ng",
-      "image": "images/gino.png",
+      "image": "../images/gino.png",
       "membership": 1
     }
   ]
