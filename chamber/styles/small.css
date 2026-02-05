@@ -1,7 +1,7 @@
 :root {
-    --sp-primary: #4CAF50;
+    --sp-primary: #2f4d30;
     --sp-secondary: #f0f0f0;
-    --sp-accent: #FF9800;
+    --sp-accent: #a0650d;
     --sp-text: #222;
 }
 
@@ -452,12 +452,12 @@ button:focus {
 .siteplan-title {
     text-align: center;
     color: var(--sp-primary);
-    font-family: Verdana, sans-serif;
+    font-family: Nunito, sans-serif;
 }
 
 .siteplan-heading {
     color: var(--sp-primary);
-    font-family: Verdana, sans-serif;
+    font-family: Nunito, sans-serif;
 }
 
 .siteplan-subheading {
