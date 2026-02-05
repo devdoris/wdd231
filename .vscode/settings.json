@@ -10,6 +10,8 @@
         "mainnav",
         "mainstyle",
         "noopener",
+        "siteplan",
         "Uchechukwu"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

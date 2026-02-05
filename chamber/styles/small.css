@@ -1,3 +1,10 @@
+:root {
+    --sp-primary: #4CAF50;
+    --sp-secondary: #f0f0f0;
+    --sp-accent: #FF9800;
+    --sp-text: #222;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -434,4 +441,48 @@ textarea:focus,
 button:focus {
   outline: 3px solid #6fa8e0;
   outline-offset: 2px;
+}
+
+.siteplan-body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+.siteplan-title {
+    text-align: center;
+    color: var(--sp-primary);
+    font-family: Verdana, sans-serif;
+}
+
+.siteplan-heading {
+    color: var(--sp-primary);
+    font-family: Verdana, sans-serif;
+}
+
+.siteplan-subheading {
+    margin-top: 20px;
+    color: var(--sp-accent);
+}
+
+.siteplan-section {
+    background-color: #ffffff;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.siteplan-list {
+    margin-left: 20px;
+}
+
+.siteplan-wireframe {
+    background-color: #fafafa;
+    border: 2px solid var(--sp-accent);
+    padding: 15px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-x: auto;
 }
