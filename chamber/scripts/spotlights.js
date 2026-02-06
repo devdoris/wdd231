@@ -24,9 +24,11 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p>${company.address}</p>
           <p>${company.phone}</p>
           <p>
-            <a href="${company.website}" target="_blank" rel="noopener">
+          <button class="spotlight-button">
+            <a href="${company.website}" target="_blank" rel="noopener" class="link-button">
               Visit Website
             </a>
+          </button>
           </p>
           <p class="level">
             ${company.membership === 3 ? "Gold" : "Silver"} Member

@@ -267,12 +267,39 @@ picture > img {
   background: #e6e6e6;
   border-radius: 1rem;
   box-shadow: none;
-  margin-bottom: 1rem;}
+  margin-bottom: 1rem;
+}
 
 .spotlight-card img {
   max-width: 100%;
   height: auto;
   margin: 12px 0;
+}
+
+.spotlight-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  background-color: #6fa8e0;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.spotlight-button:hover {
+  background-color: #518cca;
+  transform: translateY(-1px);
+}
+
+.spotlight-button:active {
+  transform: translateY(0);
+}
+
+.link-button{
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 600px) {
@@ -485,4 +512,106 @@ button:focus {
     font-size: 14px;
     line-height: 1.4;
     overflow-x: auto;
+}
+
+#visit-message {
+  background-color: #ffffff;
+  border-left: 5px solid #6fa8e0;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#discover .cards {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+#discover .card1 { grid-area: card1; }
+#discover .card2 { grid-area: card2; }
+#discover .card3 { grid-area: card3; }
+#discover .card4 { grid-area: card4; }
+#discover .card5 { grid-area: card5; }
+#discover .card6 { grid-area: card6; }
+#discover .card7 { grid-area: card7; }
+#discover .card8 { grid-area: card8; }
+
+#discover .card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+#discover .card h2 {
+  margin-top: 0;
+  color: var(--sp-primary);
+}
+
+#discover .card figure {
+  margin: 0.75rem 0;
+}
+
+#discover .card img {
+  width: 100%;
+  max-width: 300px; 
+  height: auto;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+@media (hover: hover) {
+  #discover .card img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+}
+
+#discover .card address {
+  font-style: normal;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+#discover .card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--sp-text);
+}
+
+#discover .card button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  background-color: #6fa8e0;
+  color: black;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#discover .card button:hover {
+  background-color: #5e94ca;
+  transform: translateY(-1px);
+}
+
+#discover .card button:active {
+  transform: translateY(0);
 }
