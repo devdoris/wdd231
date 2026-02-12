@@ -1,0 +1,17 @@
+[
+  { "title": "Pomodoro Technique", "category": "Focus", "duration": "25 minutes", "description": "Work in short focused intervals followed by breaks." },
+  { "title": "Active Recall", "category": "Memory", "duration": "30 minutes", "description": "Test yourself instead of rereading notes." },
+  { "title": "Spaced Repetition", "category": "Memory", "duration": "Daily", "description": "Review content over increasing intervals." },
+  { "title": "Time Blocking", "category": "Planning", "duration": "Weekly", "description": "Schedule specific time blocks for tasks." },
+  { "title": "Mind Mapping", "category": "Creativity", "duration": "20 minutes", "description": "Visualize information using diagrams." },
+  { "title": "Study Sprints", "category": "Focus", "duration": "45 minutes", "description": "Short, intense study sessions." },
+  { "title": "Goal Setting", "category": "Planning", "duration": "Weekly", "description": "Set measurable academic goals." },
+  { "title": "Task Prioritization", "category": "Productivity", "duration": "Daily", "description": "Work on the most important tasks first." },
+  { "title": "Distraction Control", "category": "Focus", "duration": "Always", "description": "Reduce phone and app distractions." },
+  { "title": "Healthy Breaks", "category": "Wellness", "duration": "5 minutes", "description": "Short breaks improve concentration." },
+  { "title": "Note Summaries", "category": "Learning", "duration": "15 minutes", "description": "Summarize notes in your own words." },
+  { "title": "Weekly Reviews", "category": "Planning", "duration": "Weekly", "description": "Review what worked and what didn’t." },
+  { "title": "Study Groups", "category": "Collaboration", "duration": "60 minutes", "description": "Learn together with classmates." },
+  { "title": "Flashcards", "category": "Memory", "duration": "20 minutes", "description": "Practice quick recall." },
+  { "title": "Sleep Routine", "category": "Wellness", "duration": "Nightly", "description": "Good sleep improves learning." }
+]

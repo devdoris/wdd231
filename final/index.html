@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySuccessGuide | Home</title>
+    <meta name="description" content="Student productivity and study planner.">
+    <meta name="author" content="Doris Uchechukwu Anakwuba">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <button id="menu" aria-label="Menu">☰</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="planner.html">Planner</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Student Productivity Tips</h1>
+        <section id="tips-container"></section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Doris Uchechukwu Anakwuba</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <dialog id="modal">
+        <p id="modal-content"></p>
+        <button id="modal-close">Close</button>
+    </dialog>
+    <script type="module" src="scripts/modal.js"></script>
+    <script src="scripts/global.js" defer></script>
+</body>
+
+</html>
