@@ -3,41 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySuccessGuide | Planner</title>
-    <link rel="stylesheet" href="styles/normalize.css"/>
+    <meta name="description" content="Plan your study goals and track your productivity.">
+    <meta name="author" content="Doris Uchechukwu Anakwuba">
+    <meta property="og:title" content="MySuccessGuide | Planner">
+    <meta property="og:description" content="Plan your study goals and track your productivity.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devdoris.github.io/wdd231/final/planner.html">
+    <meta property="og:image" content="images/favicon_io.zip">
+    <link rel="icon" href="images/favicon_io.zip">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css"/>
+    <link rel="stylesheet" href="styles/large.css">
     <script type="module" src="scripts/planner.js" defer></script>
 </head>
+
 
 <body>
     <header>
         <button id="menu" aria-label="Menu">☰</button>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="planner.html">Planner</a>
+                <a href="planner.html" class="active">Planner</a>
                 <a href="resources.html">Resources</a>
             </nav>
     </header>
     <main>
         <h1>Study Planner</h1>
-
+    
         <form id="planner-form" action="form-success.html" method="get">
-            <label>
-                Study Goal:
-                <input name="goal" required>
-            </label>
-            <label>
-                Duration:
-                <select name="duration">
+            <div class="form-group">
+                <label for="goal">Study Goal:</label>
+                <input id="goal" name="goal" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="duration">Duration:</label>
+                <select id="duration" name="duration">
                     <option>30 minutes</option>
                     <option>1 hour</option>
                     <option>2 hours</option>
                 </select>
-            </label>
+            </div>
+    
             <button type="submit">Save</button>
         </form>
+    
+        <section class="planner-grid" id="saved-plans">
+        </section>
     </main>
+
 
     <dialog id="modal">
         <p id="modal-content"></p>

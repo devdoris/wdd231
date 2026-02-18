@@ -3,11 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySuccessGuide | Resources</title>
-    <link rel="stylesheet" href="styles/normalize.css"/>
+    <meta name="description" content="Helpful online resources for student productivity and learning.">
+    <meta name="author" content="Doris Uchechukwu Anakwuba">
+    <meta property="og:title" content="MySuccessGuide | Resources">
+    <meta property="og:description" content="Helpful online resources for student productivity and learning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devdoris.github.io/wdd231/final/resources.html">
+    <meta property="og:image" content="images/favicon_io.zip">
+    <link rel="icon" href="images/favicon_io.zip">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css"/>
+    <link rel="stylesheet" href="styles/large.css">
 </head>
+
 
 <body>
     <header>
@@ -15,17 +25,23 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="planner.html">Planner</a>
-            <a href="resources.html">Resources</a>
+            <a href="resources.html" class="active">Resources</a>
         </nav>
     </header>
     <main>
         <h1>Study Resources</h1>
-        <ul class="resources-link">
-            <li><a href="https://pomofocus.io/" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a></li>
-            <li><a href="https://www.youtube.com/watch?v=oPVte6aMprI" target="_blank" rel="noopener noreferrer">Focus Music</a></li>
-            <li><a href="https://quizlet.com/" target="_blank" rel="noopener noreferrer">Online Flashcards</a></li>
-
-        </ul>
+        <section class="resources-grid">
+            <div class="card">
+                <a href="https://pomofocus.io/" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a>
+            </div>
+            <div class="card">
+                <a href="https://www.youtube.com/watch?v=oPVte6aMprI" target="_blank" rel="noopener noreferrer">Focus
+                    Music</a>
+            </div>
+            <div class="card">
+                <a href="https://quizlet.com/" target="_blank" rel="noopener noreferrer">Online Flashcards</a>
+            </div>
+        </section>
     </main>
 
     <dialog id="modal">
