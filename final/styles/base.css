@@ -28,7 +28,7 @@ main, footer {
   background: none;
   border: none;
   cursor: pointer;
-  color: #fff;
+  color: #000;
 }
 
 nav {
@@ -71,7 +71,6 @@ button {
   margin: 0.5rem;
   border-radius: 6px;
 }
-
 
 .resources-link{
     list-style: none;
@@ -158,9 +157,9 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-
-footer a { color: #000; }
-a:hover { color: rgba(255,255,255,0.8); background-color: #0056b3; }
+footer a {
+   color: #000; 
+}
 
 @media (min-width:768px) {
   nav {
